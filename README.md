@@ -8,14 +8,13 @@
 - You can swap out low batteries for fresh ones.
 - The only tools needed are a 3d printer, soldering iron, and scissors.
 ### Cons
-- Putting batteries in backwards will kill your d1 board!!!
+- Putting batteries in backwards will kill your d1 board unless you add the diode!!!
 - No battery percentage indication.
-<sub><sup>(D1s will brown out before 18650s reach a harmfully low voltage.  Just be sure to remove the battery after it dies or it will continue draining)</sup></sub>
-- The battery makes it bigger than stock slimes. 
+<sub><sup>(D1s will brown out before 18650s reach a harmfully low voltage.  Just be sure to remove the battery after the tracker dies or it will continue draining)</sup></sub>
+- The battery makes it bigger than stock slimes. Its the size of Frozen Slimes.
 - You'll have to remove the batteries to charge them or turn off the slimes.
 
-
-## Parts for 10 trackers: $87 using amazon  
+## Parts for 10 trackers: $72 using AliExpress, $87 using amazon  
 -  4 pin female right-angle JST connectors:  $6  
 ([bag of 50 for \$6](https://www.amazon.com/dp/B0BMDQLR4Q))  
 
@@ -23,19 +22,22 @@
 ([30cm x 20 for \$8](https://www.amazon.com/dp/B09JNZJXTF))  
 ([100cm x 5 for \$11](https://www.amazon.com/Kidisoii-Connector-Pre-Crimped-Housing-Adapter/dp/B0BW9T2L26) - optional for longer runs to satellites)  
 
-
-- D1 Minis: \$15 for 10 tracking points  
-([$3 each](https://www.amazon.com/dp/B081PX9YFV))  
+- D1 Minis: \$15 for 10 tracking points
+([$1 each at AliExpress](https://www.aliexpress.us/item/3256805974392372.html))
+([$3 each at amazon](https://www.amazon.com/dp/B081PX9YFV))
+<sub><sup>([Tiel brought to my attention the Wemos Wroom has an integrated 18650 for roughly the same price.  Maybe that will be the next version.](https://www.aliexpress.us/item/3256804461622366.html)</sup></sub>
 - BMI 160s: \$21 for 10 tracking points  
 ([$1.50 each from AliExpress](https://www.aliexpress.us/item/3256805412351566.html))  
 ([$2 each at amazon if you can't wait, but buyer beware](https://www.amazon.com/dp/B0C4TMKL3V))*  
 <sub><sup>*I linked ones that worked for me but you should avoid Amazon due to flaky QA.  You may get up to 50% DOA from some sellers.</sup></sub>
 - Battery holders: $8  
 ([10 for \$8](https://www.amazon.com/HiLetgo-10pcs-Battery-Holder-Storage/dp/B00LSG5BKO))  
-- 18650 batteries and charger: $29  
+- 18650 batteries and charger: \$29  
 ([cheapest option](https://www.amazon.com/Tokeyla-Rechargeable-6-Button-top-B%EF%BF%B5at%EF%BF%B5t%EF%BF%B5%EF%BF%B5ery-Ba%EF%BF%B5tt%EF%BF%B5%EF%BF%B5er%EF%BF%B5y/dp/B0CBRDVHTY/))  
 (or separate [batteries](https://www.amazon.com/1%EF%BF%B58%EF%BF%B56%EF%BF%B550-Rechargeable-Batter%EF%BF%B5y-Universal-Batteries/dp/B0CLZTS43N/) and [6 bay charger](https://www.amazon.com/Battery-Universal-Rechargeable-Batteries-Compatible/dp/B091GDK56V))
-
+- 1n5817 Diodes: (optional protection from putting the battery in backwards.  You should probably be less lazy than me and get them.)
+[$5 for 100 at AliExpress](https://www.aliexpress.us/item/3256806265356485.html)  
+[$7 for 100 at amazon](https://www.amazon.com/100-Pieces-1N5817-Schottky-Rectifier/dp/B079KDQQPD)  
 - 3d printed cases: priceless  
 - I'm assuming you have a soldering iron  
 
@@ -48,7 +50,7 @@ Consult [the slime VR docs for some good DIY strap ideas](https://docs.slimevr.d
 
 
 # Cases
-If you just want to print them you can use the [included STL files](/case-files/stl/) to slice and print.  If you have an Ender3 and PLA you can skip slicing and use the [included gcode files](/case-files/gcode%20for%20ender3/).  
+These are modeled after [Frozen Slimes](https://github.com/frosty6742/frozen-slimes-v2) but without the fancy PCB.  If you just want to print them you can use the [included STL files](/case-files/stl/) to slice and print.  If you have an Ender3 and PLA you can skip slicing and use the [included gcode files](/case-files/gcode%20for%20ender3/).  
    
 The [master file](/case-files/lazy-slimes.scad) is written in [OpenSCAD](https://openscad.org/). You will need to use that to customize it (Fork it and send me a PR!).  Check out the parameters at the top for isolating each piece.  
 ![screen shot of scad file](/images/scad.png)
@@ -64,7 +66,7 @@ The [master file](/case-files/lazy-slimes.scad) is written in [OpenSCAD](https:/
 If you don't need a satellite sensor connected you can skip the longer cable entirely.</sup></sub>
 1. Use a scrap of the cut wire to solder a jumper on the satellite BMI160 from the G pad to the SAO pad. <sub><sup>This is necessary to identify it as sensor #2 on the data bus.</sup></sub>
 1. Insert the battery ground wire and the ground wire for both BMI160s* into the G pad on the D1.  This is the trickiest part of the build but all 3 WILL fit in the hole.  Solder them all in. <sub><sup>(*note: to keep things quick ignore the color of the jst wires.  The G wire should be the second pad from the top on the BMI160)</sup></sub>
-1. Solder the red battery lead into the 5V pad of the D1
+1. Solder the red battery wire into the 5V pad of the D1.  If you chose to get protection diodes then cut the red wire from the front of the battery holder and solder the diode there.  Reattach the red wire to the end of the diode with the ring painted on it.
 1. Solder both of the 3V3 leads from the BMI160s to the 3V3 pad of the D1
 1. Solder both of the SCL leads from the BMI 160s to the D1 pad of the D1
 1. Solder both of the SDA leads from the BMI 160s to the D2 pad of the D1
@@ -98,6 +100,9 @@ Why not add in another 4 and get upper chest, waist, shoulders and lower arms?  
 1. [Calibrate](https://docs.slimevr.dev/server/imu-calibration.html), [calibrate](https://docs.slimevr.dev/server/configuring-trackers.html), [calibrate](https://docs.slimevr.dev/server/body-config.html)!
 1. Dance, dance, dance!
 1. Remove the batteries to turn them off or when you need to charge.
+
+# Thanks
+Thanks to Gorbit99 and Tiel for suggesting improvements to this build!
 
 
 
