@@ -22,9 +22,9 @@
 ([30cm x 20 for \$8](https://www.amazon.com/dp/B09JNZJXTF))  
 ([100cm x 5 for \$11](https://www.amazon.com/Kidisoii-Connector-Pre-Crimped-Housing-Adapter/dp/B0BW9T2L26) - optional for longer runs to satellites)  
 
-- D1 Minis: \$15 for 10 tracking points
-([$1 each at AliExpress](https://www.aliexpress.us/item/3256805974392372.html))
-([$3 each at amazon](https://www.amazon.com/dp/B081PX9YFV))
+- D1 Minis: \$15 for 10 tracking points  
+([$1 each at AliExpress](https://www.aliexpress.us/item/3256805974392372.html))  
+([$3 each at amazon](https://www.amazon.com/dp/B081PX9YFV))  
 <sub><sup>([Tiel brought to my attention the Wemos Wroom has an integrated 18650 for roughly the same price.  Maybe that will be the next version.](https://www.aliexpress.us/item/3256804461622366.html)</sup></sub>
 - BMI 160s: \$21 for 10 tracking points  
 ([$1.50 each from AliExpress](https://www.aliexpress.us/item/3256805412351566.html))  
@@ -44,7 +44,8 @@
 ### Straps:
 Consult [the slime VR docs for some good DIY strap ideas](https://docs.slimevr.dev/diy/diy-straps.html) to match your sewing skills.  Stretchy straps are very necessary! Regular velcro/nylon will fall right off.  If you just want to buy everything here's the amazon solution for \$40:
 -  Stretchy 1" and 2" straps:  $26
-([two of these at \$13](https://www.amazon.com/dp/B08CDGZ774))([or one and this pack for \$12](https://www.amazon.com/VELCRO-Brand-VEL-30794-AMS-Stretchable-Umbrellas/dp/B09QSYVP5H))
+([two of these at \$13](https://www.amazon.com/dp/B08CDGZ774))
+([or one and this pack for \$12](https://www.amazon.com/VELCRO-Brand-VEL-30794-AMS-Stretchable-Umbrellas/dp/B09QSYVP5H))
 - Chest harness: \$14
 ([\$14 for the cheapest gopro holder](https://www.amazon.com/dp/B01D3I8A7A))
 
