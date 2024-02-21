@@ -15,27 +15,29 @@
 - You'll have to remove the batteries to charge them or turn off the slimes.
 
 
-## Parts for 10 trackers: $87 using amazon
--  4 pin female right-angle JST connectors:  $6
+## Parts for 10 trackers: $87 using amazon  
+-  4 pin female right-angle JST connectors:  $6  
 ([bag of 50 for \$6](https://www.amazon.com/dp/B0BMDQLR4Q))  
 
--  4-pin 2.54mm JST cables+connectors:  $8 - 19
-([30cm x 20 for \$8](https://www.amazon.com/dp/B09JNZJXTF)) 
-([100cm x 5 for \$11](https://www.amazon.com/Kidisoii-Connector-Pre-Crimped-Housing-Adapter/dp/B0BW9T2L26) - optional for longer runs to satellites)
+-  4-pin 2.54mm JST cables+connectors:  $8 - 19  
+([30cm x 20 for \$8](https://www.amazon.com/dp/B09JNZJXTF))  
+([100cm x 5 for \$11](https://www.amazon.com/Kidisoii-Connector-Pre-Crimped-Housing-Adapter/dp/B0BW9T2L26) - optional for longer runs to satellites)  
 
 
-- D1 Minis: \$15 for 10 tracking points
-([$3 each](https://www.amazon.com/dp/B081PX9YFV))
-- BMI 160s: \$21 for 10 tracking points
-([$2 each](https://www.amazon.com/dp/B0C4TMKL3V)) 
-- Battery holders: $8
-([10 for \$8](https://www.amazon.com/HiLetgo-10pcs-Battery-Holder-Storage/dp/B00LSG5BKO))
-- 18650 batteries and charger: $29
-([cheapest option](https://www.amazon.com/Tokeyla-Rechargeable-6-Button-top-B%EF%BF%B5at%EF%BF%B5t%EF%BF%B5%EF%BF%B5ery-Ba%EF%BF%B5tt%EF%BF%B5%EF%BF%B5er%EF%BF%B5y/dp/B0CBRDVHTY/))
+- D1 Minis: \$15 for 10 tracking points  
+([$3 each](https://www.amazon.com/dp/B081PX9YFV))  
+- BMI 160s: \$21 for 10 tracking points  
+([$1.50 each from AliExpress](https://www.aliexpress.us/item/3256805412351566.html))  
+([$2 each at amazon if you can't wait, but buyer beware](https://www.amazon.com/dp/B0C4TMKL3V))*  
+<sub><sup>*I linked ones that worked for me but you should avoid Amazon due to flaky QA.  You may get up to 50% DOA from some sellers.</sup></sub>
+- Battery holders: $8  
+([10 for \$8](https://www.amazon.com/HiLetgo-10pcs-Battery-Holder-Storage/dp/B00LSG5BKO))  
+- 18650 batteries and charger: $29  
+([cheapest option](https://www.amazon.com/Tokeyla-Rechargeable-6-Button-top-B%EF%BF%B5at%EF%BF%B5t%EF%BF%B5%EF%BF%B5ery-Ba%EF%BF%B5tt%EF%BF%B5%EF%BF%B5er%EF%BF%B5y/dp/B0CBRDVHTY/))  
 (or separate [batteries](https://www.amazon.com/1%EF%BF%B58%EF%BF%B56%EF%BF%B550-Rechargeable-Batter%EF%BF%B5y-Universal-Batteries/dp/B0CLZTS43N/) and [6 bay charger](https://www.amazon.com/Battery-Universal-Rechargeable-Batteries-Compatible/dp/B091GDK56V))
 
-- 3d printed cases: priceless
-- I'm assuming you have a soldering iron
+- 3d printed cases: priceless  
+- I'm assuming you have a soldering iron  
 
 ### Straps:
 Consult [the slime VR docs for some good DIY strap ideas](https://docs.slimevr.dev/diy/diy-straps.html) to match your sewing skills.  Stretchy straps are very necessary! Regular velcro/nylon will fall right off.  If you just want to buy everything here's the amazon solution for \$40:
