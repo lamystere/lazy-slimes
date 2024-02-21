@@ -10,7 +10,7 @@
 ### Cons
 - Putting batteries in backwards will kill your d1 board!!!
 - No battery percentage indication.
-<sub><sup>(However D1s will shut off before 18650s reach a harmfully low voltage)</sup></sub>
+<sub><sup>(D1s will brown out before 18650s reach a harmfully low voltage.  Just be sure to remove the battery after it dies or it will continue draining)</sup></sub>
 - The battery makes it bigger than stock slimes. 
 - You'll have to remove the batteries to charge them or turn off the slimes.
 
@@ -24,7 +24,7 @@
 ([100cm x 5 for \$11](https://www.amazon.com/Kidisoii-Connector-Pre-Crimped-Housing-Adapter/dp/B0BW9T2L26) - optional for longer runs to satellites)
 
 
-- Mini D1s: \$15 for 10 tracking points
+- D1 Minis: \$15 for 10 tracking points
 ([$3 each](https://www.amazon.com/dp/B081PX9YFV))
 - BMI 160s: \$21 for 10 tracking points
 ([$2 each](https://www.amazon.com/dp/B0C4TMKL3V)) 
